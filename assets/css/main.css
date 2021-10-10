@@ -3488,16 +3488,14 @@ input, select, textarea {
 				#intro .actions {
 					display: none;
 				}
-
+			
 		}
 
 		.pic {
-			height: 10vw;
-			width: 10vw;
+			height: 6vw;
+			width: 6vw;
 			border: 3px solid rgb(89, 223, 233) ;
 			border-radius: 70px;
-			
-
 		}
 
 /* Header */
@@ -3611,6 +3609,11 @@ input, select, textarea {
 					border-width: 3px !important;
 				}
 
+				.pic {
+					height: 10vw;
+					width: 10vw;
+					
+				}	
 		}
 
 /* Nav */
