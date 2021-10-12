@@ -177,7 +177,10 @@ input, select, textarea {
 
 	p {
 		text-align: justify;
-		margin: 0 0 2rem 0;
+		margin: 0 1rem 2rem 1rem;
+		font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+		line-height: 1.5rem;
+		font-size: 1.1rem;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -298,7 +301,7 @@ input, select, textarea {
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #18bfef !important;
+			color: #13abd4 !important;
 		}
 
 	strong, b {
@@ -3638,6 +3641,8 @@ input, select, textarea {
 		width: calc(100% - 4rem);
 		max-width: 72rem;
 		z-index: 2;
+		border-top-left-radius: 8px;
+		border-top-right-radius: 8px;
 	}
 
 		#nav ul.divided li {
@@ -3974,6 +3979,9 @@ input, select, textarea {
 		width: calc(100% - 4rem);
 		max-width: 72rem;
 		z-index: 2;
+		border-bottom-left-radius: 10px;
+		border-bottom-right-radius: 10px;
+
 	}
 
 		#footer input, #footer select, #footer textarea {
@@ -4256,6 +4264,7 @@ input, select, textarea {
 					align-items: center;
 					padding: 3.15rem 4rem;
 					margin: auto;
+				
 				}
 
 					#footer > section.split.contact > section > * {
@@ -4303,10 +4312,12 @@ input, select, textarea {
 						display: flex;
 						justify-content: space-around;
 						
+						
 					}
 
 						#footer > section.split.contact > section.alt > :last-child {
 							margin-top: -0.325rem;
+							
 						}
 
 		#footer form label,
